@@ -2,7 +2,7 @@
 layout: post
 title: "What is the cancelation policy ?"
 date: 2019-11-05 08:44:38 -0400
-category: pricing-and-licensing
+category: Pricing
 author: ajita
 short-description: Cancellation policy
 tags: [Pricing and Licensing]

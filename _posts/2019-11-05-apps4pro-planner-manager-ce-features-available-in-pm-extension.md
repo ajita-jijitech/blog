@@ -2,7 +2,7 @@
 layout: post
 title: "What are the benefits if I use Planner Manager chrome extension than the desktop app?"
 date: 2019-11-05 08:44:38 -0400
-category: apps4pro-planner-manager-chrome-extension
+category: apps4pro
 author: ajita
 short-description: Benefits of the product
 tags: [Chrome Extension]

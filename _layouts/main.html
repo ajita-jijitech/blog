@@ -11,7 +11,30 @@ layout: compress
             <section class="content">
                 {{ content }}
             </section>
-        {% include footer.html %}
+    <iframe src="https://www.jijitechnologies.com/footer.aspx" scrolling="no" width=100% height=460px style="border: none;"> </iframe>
+<script>
+    if (matchMedia) {
+    const mq = window.matchMedia("(max-width: 600px)");
+    mq.addListener(WidthChange);
+    WidthChange(mq);
+    }
+ 
+    // media query change
+    function WidthChange(mq) {
+        var iframe=document.getElementById("footeriframe")
+    if (mq.matches) {
+        console.log("Mq",mq)
+       
+        var scrollHeight=iframe.scrollHeight;
+        var clientHeight=iframe.clientHeight;
+        iframe.height=scrollHeight+clientHeight+ "px";
+    } else {
+        iframe.height=460+ "px";
+    }
+    
+ }
+</script>
+        <!-- {% include footer.html %} -->
         <script>
             if (window.netlifyIdentity) {
                 window.netlifyIdentity.on("init", function(user) {
