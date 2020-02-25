@@ -2,7 +2,7 @@
 layout: post
 title: "Where do I get the logfiles for this app?"
 date: 2019-11-05 08:44:38 -0400
-category: apps4pro-planner-manager-desktop-app
+category: apps4pro
 author: ajita
 short-description: No plans processed error
 tags: [Planner Manager Desktop app]
